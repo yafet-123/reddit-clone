@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Header from '../components/Header'
 import Banner from '../components/community/Banner'
 import CreatePost from '../components/feed/CreatePost'
+import About from '../components/community/About'
 
 const style = {
     wrapper: `flex min-h-screen flex-col bg-black text-white`,
@@ -22,7 +23,7 @@ export default function Home() {
                 </div>
 
                 <div className={style.infoContainer}>
-                    
+                    <About />
                 </div>
             </main>
         </div>
