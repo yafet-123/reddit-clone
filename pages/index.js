@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
 import Banner from '../components/community/Banner'
+import CreatePost from '../components/feed/CreatePost'
 
 const style = {
     wrapper: `flex min-h-screen flex-col bg-black text-white`,
@@ -15,6 +16,15 @@ export default function Home() {
         <div className={style.wrapper}>
             <Header />
             <Banner />
+            <main className={style.main}>
+                <div className={style.content}>
+                    <CreatePost />
+                </div>
+
+                <div className={style.infoContainer}>
+                    
+                </div>
+            </main>
         </div>
     )
 }
