@@ -30,7 +30,14 @@ const About = () => {
                     <p>yafetaddisu</p>
                 </div>
                 <p className={style.aboutContent}>
-                
+                    I am a Full Stack web developer with rich experience developing complete web apps and 
+                    websites based on JavaScript using React.js and Next.js as my main frontend framework. 
+                    I have also experience with node.js for backend support along with all the logic projects 
+                    need including database and API support. I am a dedicated developer with a commitment to
+                    perfect development works I work on. I enjoy making iterative improvements until a 
+                    project I work on gets completed with the best results. I am also passionate about 
+                    teaching, especially programming and computer science, and I have worked with college
+                    students, high schools, and others alike.
                 </p>
 
                 <div className={style.statsWrapper}>
