@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from '../components/Header'
+import Banner from '../components/community/Banner'
 
 const style = {
     wrapper: `flex min-h-screen flex-col bg-black text-white`,
@@ -13,6 +14,7 @@ export default function Home() {
     return (
         <div className={style.wrapper}>
             <Header />
+            <Banner />
         </div>
     )
 }
